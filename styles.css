@@ -1,0 +1,215 @@
+/* Загальні стилі */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1ba89; /* Фон сторінки */
+    color: #000000; /* Колір тексту */
+}
+/* Застосування стилів до заголовка */
+.font-background {
+    background-color: #9370DB;  /* Колір фону */
+    color: #FFFFFF;  /* Колір тексту */
+    font-weight: bold;  /* Жирний шрифт */
+    padding: 10px;  /* Внутрішні відступи для кращого оформлення */
+    margin-bottom: 4px;  /* Відступ знизу для вирівнювання з іншим контентом */
+}
+
+
+.result-message {
+    color: red;
+    display: none;
+}
+
+
+/* Якщо вам потрібно це застосувати тільки до конкретного елемента з класом font */
+.font {
+    font-family: 'Montserrat', sans-serif;  /* Застосування шрифту Montserrat */
+}
+
+
+/* Навігаційне Меню */
+.bg {
+    background-color: #cbb12d6c; 
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+    color: #ffffff; /* Білий текст */
+}
+
+.navbar-dark .navbar-toggler-icon {
+    border-color: #ffffff; /* Білий колір для іконки бургера */
+}
+
+.navbar {
+    padding: 0.1rem 1rem;
+}
+
+/* Заголовок та Слоган */
+.jumbotron {
+    background-color: #f1ba89; 
+    color: #000000; /* Білий текст */
+    text-align: center;
+}
+
+/* Картки Проектів та Статей */
+.card {
+    margin-bottom: 20px;
+    background-color: #ffffff; /* Білий фон для карток */
+}
+
+/* Розділ Про Автора */
+.container {
+    text-align: center;
+}
+
+/* Футер */
+footer {
+    background-color: #f1ba89; /* Ліловий фон */
+    color: #ffffff; /* Білий текст */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+}
+
+ /* Стилі для карток */
+ .card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 0.75rem 1.25rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+}
+/* Стилі для карток статей */
+.article-card {
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease-in-out;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.article-card:hover {
+    transform: scale(1.05);
+}
+
+.article-card img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.article-card-content {
+    padding: 20px;
+}
+
+.article-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.article-description {
+    font-size: 1rem;
+}
+ /* Стилі для блоку пошуку */
+ .search-block {
+    margin-bottom: 20px;
+}
+   /* Стилі для кнопки "на верх" */
+   #btnScrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #cbb12d6c;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+li {
+    padding-bottom: 25px;
+}
+
+i {
+    font-size: 20px;
+    color: black;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 5.5rem!important;
+}
+
+.author {
+    margin-top: 20px;
+}
+
+
+/*coments*/
+
+#comments-container {
+    background-color: #fff;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#comments-list {
+    list-style: none;
+    padding: 0;
+}
+
+.comment {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+}
+
+#phone-numbers {
+    display: none;
+    margin-top: 10px;
+}

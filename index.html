@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>CodeHub - Де Код Набирає Життя</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Rubik+Doodle+Shadow&family=Shantell+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg fixed-top">
+        <a class="navbar-brand" href="#">CodeHub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Головна</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#project">Проекти</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#last">Блог</a>
+                </li>
+                    <a class="nav-link" href="#author">Про Автора</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="jumbotron">
+        <h1 class="display-4">CodeHub - Де Код Набирає Життя</h1>
+        <p class="lead">Зануртеся в світ програмування та діліться своїми ідеями!</p>
+    </header>
+
+    <section class="container my-5" id="project">
+        <h2 class="text-center mb-4 font font-background">Популярні Проекти</h2>
+
+        <div class="row">
+            <!-- Картка проекту 1 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/1.jpg" class="card-img-top" alt="Проект 1">
+                    <div class="card-body">
+                        <h5 class="card-title">"Кодовий Майданчик"</h5>
+                        <p class="card-text">Віртуальне середовище для програмістів, де вони можуть обмінюватися ідеями та отримувати зворотний зв'язок щодо свого коду.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Картка проекту 2 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/2.jpg" class="card-img-top" alt="Проект 2">
+                    <div class="card-body">
+                        <h5 class="card-title">"Віртуальний Кодерський Клуб"</h5>
+                        <p class="card-text">Онлайн-спільнота для програмістів різних рівнів навичок. Обговорення тем програмування, навчання та взаємна допомога.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Картка проекту 3 -->
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="img/3.jpg" class="card-img-top" alt="Проект 3">
+                    <div class="card-body">
+                        <h5 class="card-title">"Інтерактивний Код-Лінк"</h5>
+                        <p class="card-text">Платформа для створення та обговорення кодових завдань. Завдання для вивчення нових мов програмування та розвитку навичок.</p>
+                        <a href="#" class="btn btn-primary">Деталі</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5" id="last">
+        <h2 class="text-center mb-4 font font-background">Останні Статті</h2>
+        <div class="row">
+
+             <!-- Блок пошуку -->
+             <div class="col-md-6 mb-4 search-block">
+                <form class="form-inline" id="searchForm">
+                    <input class="form-control mr-sm-2" id="searchInput" type="text" placeholder="Пошук статті" aria-label="Search">
+                    <button class="btn btn-outline-primary my-2 my-sm-0" type="button" onclick="search()">Пошук</button>
+                </form>
+                <p id="resultMessage" class="result-message"></p>
+            </div>
+
+            <!-- Картки статей -->
+            <div class="col-md-6">
+                <!-- Код для першої статті -->
+                <a href="https://goit.global/ua/articles/instrumenty-dlia-biznes-analityka-korotkyy-ohliad/" class="article-card">
+                    <img src="img/5.webp" alt="Вступ у світ програмування" class="rounded-2xl">
+                    <div class="article-card-content">
+                        <h3 class="article-title">Інструменти для бізнес-аналітика: короткий огляд</h3>
+                        <p class="article-description">Інструменти бізнес-аналітики полегшують рутинну роботу і дають змогу швидше справлятися зі складними завданнями. А ще збільшують цінність бізнес-аналітика на ринку праці та розширюють кар'єрні можливості. Розповідаємо про основні інструменти, які необхідні аналітику. Курси та безплатні марафони від GoIT.</p>
+                    </div>
+                </a>
+                <a href="https://goit.global/ua/articles/kiberbezpeka-nayhuchnishi-kiberataky-v-istorii/" class="article-card">
+                    <img src="img/6.webp" alt="Вступ у світ програмування" class="rounded-2xl">
+                    <div class="article-card-content">
+                        <h3 class="article-title">Кібербезпека: найгучніші кібератаки в історії</h3>
+                        <p class="article-description">Кількість кібератак в Україні та світі постійно збільшується. Вони завдають бізнесу і країнам величезної шкоди. Сьогодні поговоримо про наймасштабніші кіберзлочини в історії. І розповімо, з чого все починалося. Хочемо, щоб ти розумів, наскільки важлива робота фахівців із кібербезпеки. Курси і безплатні марафони від GoIT.</p>
+                    </div>
+                </a>
+                <a href="#" class="article-card">
+                    <img src="img/7.webp" alt="Вступ у світ програмування" class="rounded-2xl">
+                    <div class="article-card-content">
+                        <h3 class="article-title">Стрес: симптоми, наслідки та способи його позбутися</h3>
+                        <p class="article-description">Стрес впливає практично на всі системи нашого організму. Позначається на працездатності, поведінці, фізичному та ментальному здоров'ї. Короткостроковий стрес іноді буває навіть корисним. Але постійний стрес – це біда. Сьогодні поговоримо про те, що таке гострий і хронічний стрес, чим вони відрізняються і як з ними боротися.</p>
+                    </div>
+                </a>
+
+                <div id="comments-container">
+                    <h2>Форма відгуків</h2>
+            
+                    <form id="comment-form">
+                        <label for="username">Ім'я користувача:</label>
+                        <input type="text" id="username" required>
+            
+                        <textarea id="comment" rows="6" required></textarea>
+                        <div>
+                            <button type="button" onclick="submitComment()">Додати відгук</button>
+                        </div>
+                        
+                    </form>
+            
+                    <h3>Коментарі:</h3>
+                    <ul id="comments-list"></ul>
+                </div>
+                
+
+            
+            </div>
+        </div>
+    </section>
+
+    <section class="container my-5 font font-background" id="author">
+        <h2 class="text-center mb-4 author">Про Автора</h2>
+    
+        <div class="row">
+            <!-- Фотографія автора -->
+            <div class="col-md-6 mb-4">
+                <img src="img/9.jpg" class="img-fluid rounded-circle" alt="Автор">
+            </div>
+    
+            <!-- Інформація про автора -->
+            <div class="col-md-6">
+                <ul class="list-unstyled">
+                    <li><i>Автор:</i> Кравець Вадим</li>
+                    <li><i>Група:</i> 3КН-24б </li>
+                    <li><i>Спеціальність:</i> 122 - Комп'ютерні науки</li>
+                    <li><i>Факультет:</i> Інтелектуальних інформаційних технологій та автоматизації</li>
+                    <li><i>Заклад освіти:</i> ВНТУ</li>
+                    <!-- Додайте більше інформації, якщо потрібно -->
+                </ul>
+                <button onclick="showPhoneNumbers()">Номер телефону</button>
+
+                <div id="phone-numbers">
+                    <p>+380631442575</p>
+                    <p>+380689500240</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <footer class="bg-dark text-white text-center py-3">
+        <h6>Поточна дата:</h6>
+        <p id="currentDate"></p>
+        
+ <script>
+        function showPhoneNumbers() {
+            // Отримання елемента div, який містить номери телефонів
+            var phoneNumbersDiv = document.getElementById('phone-numbers');
+
+            // Перевірка видимості div
+            if (phoneNumbersDiv.style.display === 'none') {
+                // Показати div, якщо він прихований
+                phoneNumbersDiv.style.display = 'block';
+            } else {
+                // Приховати div, якщо він видимий
+                phoneNumbersDiv.style.display = 'none';
+            }
+        }
+    </script>
+
+        <script>
+            function submitComment() {
+                // Отримання значень з полів форми
+                var username = document.getElementById('username').value;
+                var comment = document.getElementById('comment').value;
+    
+                // Створення нового елемента коментаря
+                var newComment = document.createElement('li');
+                newComment.className = 'comment';
+                newComment.innerHTML = '<strong>' + username + ':</strong> ' + comment;
+    
+                // Додавання нового коментаря до списку
+                document.getElementById('comments-list').appendChild(newComment);
+    
+                // Очищення полів форми
+                document.getElementById('username').value = '';
+                document.getElementById('comment').value = '';
+            }
+        </script>
+
+        <script>
+            // Отримання поточної дати
+            var currentDate = new Date();
+    
+            // Форматування дати в зручний вигляд
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var formattedDate = currentDate.toLocaleDateString('en-US', options);
+    
+            // Відображення дати на сторінці
+            document.getElementById('currentDate').textContent = formattedDate;
+        </script>
+        <p>&copy; 2023 CodeHub</p>
+         <!-- Кнопка "На верх" -->
+         <button id="btnScrollToTop" onclick="scrollToTop()">↑</button>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        // JavaScript для відображення/приховування кнопки "На верх"
+        window.onscroll = function() {
+            showScrollToTopButton();
+        };
+
+        function showScrollToTopButton() {
+            var btnScrollToTop = document.getElementById("btnScrollToTop");
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btnScrollToTop.style.display = "block";
+            } else {
+                btnScrollToTop.style.display = "none";
+            }
+        }
+
+        // JavaScript для прокрутки на верх сторінки
+        function scrollToTop() {
+            document.body.scrollTop = 0; // Для Safari
+            document.documentElement.scrollTop = 0; // Для Chrome, Firefox, IE та Opera
+        }
+    </script>
+    <script src="script.js" defer></script>
+</body>
+
+</html>
